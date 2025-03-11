@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 def connectDatabase(username, port, host, password, database):
-    mysql_uri = f"mysql+mysqlconnector://root:kbs12345@localhost:3306/portfolio"
+    mysql_uri = f"mysql+mysqlconnector://root:yourpassword@localhost:3306/portfolio"
     st.session_state.db = SQLDatabase.from_uri(mysql_uri)
 
 
@@ -332,7 +332,7 @@ if st.session_state.authenticated:
     host = st.sidebar.text_input("Host", value="localhost")
     port = st.sidebar.text_input("Port", value="3306")
     username = st.sidebar.text_input("Username", value="root")
-    password = st.sidebar.text_input("Password", value="kbs12345")
+    password = st.sidebar.text_input("Password", value="yourpassword")
     database = st.sidebar.text_input("Database", value="portfolio")
     connectBtn = st.sidebar.button("Connect")
 
