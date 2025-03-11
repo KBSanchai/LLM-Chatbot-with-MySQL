@@ -37,15 +37,15 @@ An intelligent, full-stack chatbot app built using <strong>LangChain</strong>, <
 <h2>📸 Screenshots</h2>
 
 <h4>🔐 Login / Signup Page</h4>
-<img src="C:\Users\KBsan\Downloads\Screenshot 2025-03-11 195838.png" alt="Login and Signup Page" width="800"/>
+<img src="screenshots/login.png" alt="Login and Signup Page" width="800"/>
 
 
 <h4>🔌 Connect to MySQL Database & Chat</h4>
-<img src="C:\Users\KBsan\Downloads\Screenshot 2025-03-11 200040.png" alt="Chatbot Interface with MySQL Connection" width="800"/>
+<img src="screenshots/chat.png" alt="Chatbot Interface with MySQL Connection" width="800"/>
 
 
 <h4>🧩 Database Schema (ER Diagram)</h4>
-<img src="C:\Users\KBsan\Downloads\dbms er.png" alt="MySQL ER Diagram" width="800"/>
+<img src="screenshots/ERdiagram.png" alt="MySQL ER Diagram" width="800"/>
 
 <h2>📂 Database Tables Used</h2>
 <p>
